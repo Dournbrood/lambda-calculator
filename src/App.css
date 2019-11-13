@@ -20,3 +20,24 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.button-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 75%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+  .special-button{
+    max-width: 80px;
+    background: #225d9e;
+    color: white;
+    height: 80px;
+    flex-grow: 1;
+    border-radius: 50%;
+    border: none;
+    font-size: 2.0rem;
+    box-shadow: 0px 5px rgba(0.063, 0.02, 0, 0.631);
+  }
